@@ -52,7 +52,7 @@ function merchantName(env: Env): string {
 async function maybeSeed(env: Env): Promise<void> {
 	if (seedDisabledInIsolate === null) {
 		seedDisabledInIsolate =
-			(env.SEED_DEMO_DATA ?? "true").toLowerCase() === "false";
+			(env.SEED_DEMO_DATA ?? "false").toLowerCase() === "false";
 	}
 	if (seedDisabledInIsolate) return;
 	// When seed is enabled, ask the store — `seedDemoDataIfNeeded` does a

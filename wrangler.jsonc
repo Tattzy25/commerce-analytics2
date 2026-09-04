@@ -21,7 +21,7 @@
 	],
 	"vars": {
 		"MERCHANT_NAME": "TaTTTy",
-		"SEED_DEMO_DATA": "true",
+		"SEED_DEMO_DATA": "false",
 		"EVENT_RETENTION_DAYS": "30"
 	}
 }
